@@ -7,3 +7,4 @@ stagesettings.py
 *.swo
 /static
 /build
+server/id_rsa

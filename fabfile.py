@@ -15,11 +15,11 @@ from fabric.contrib.files import upload_template as orig_upload_template
 
 # Stuff you're likely to change
 PROJECT_NAME = 'project'
-DOMAIN = 'project.com'
-GIT_CLONE_PATH = 'reverie/%s.git' % PROJECT_NAME
+DOMAIN = 'do.delianna.net'
+GIT_CLONE_PATH = 'jangeador/%s.git' % PROJECT_NAME
 PRODUCTION_USERNAME = 'root'
 PRODUCTION_HOST = DOMAIN # Change this to an IP if your DNS isn't resolving yet
-ADMIN_EMAIL = 'andrewbadr+django_fabfile@gmail.com'
+ADMIN_EMAIL = 'jangeador@gmail.com'
 
 # Probably don't change:
 DJANGO_PORT = 81
